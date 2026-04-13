@@ -6,11 +6,11 @@ import (
 
 type Entity struct {
 	Position
-	Name string
-	Symbol rune
-	Health int
+	Name      string
+	Symbol    rune
+	Health    int
 	MaxHealth int
-	Speed time.Duration
+	Speed     time.Duration
 }
 
 type Position struct {
